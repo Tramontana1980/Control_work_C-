@@ -48,3 +48,12 @@ void PrintArray(string[] stringArray)
     }
     Console.Write("]");
 }
+
+
+Console.Write("Введите количество элементов массива: ");
+int m = Convert.ToInt32(Console.ReadLine());
+string[] Array = new string[m];
+
+FillArray(Array);
+string[] NewArray = new string[CountStringSymbol(Array)];
+PrintArray(FillNewArray(Array, NewArray));
