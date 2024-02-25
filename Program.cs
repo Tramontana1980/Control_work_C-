@@ -18,3 +18,17 @@ int CountStringSymbol(string[] stringArray)
     }
     return n;
 }
+
+string[] FillNewArray(string[] OldArray, string[] NewArray)
+{
+    int j = 0;
+    for (int i = 0; i < OldArray.Length; i++)
+    {
+        if (OldArray[i].Length <= 3)
+        {
+            NewArray[j] = OldArray[i];
+            j++;
+        }
+    }
+    return NewArray;
+}
