@@ -37,4 +37,9 @@
 3. Вызываем функцию FillArray
 4. Создаем новый массив с количеством элементов, которе нам вернуа функция CountStringSymbol
 5. Вызываем функцию PrintArray и вложенную функцию FillNewArray
+
+## Ссылка на репозиторий
+
+("https://github.com/Tramontana1980/Control_work_C-.git" "Всплывающая подсказка") 
+
   
