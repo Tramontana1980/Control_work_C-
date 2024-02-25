@@ -32,3 +32,19 @@ string[] FillNewArray(string[] OldArray, string[] NewArray)
     }
     return NewArray;
 }
+
+void PrintArray(string[] stringArray)
+{
+    int j = 1;
+    Console.Write("[");
+    for (int i = 0; i < stringArray.Length; i++)
+    {
+        Console.Write($"{stringArray[i]}");
+        if (i < j && j != stringArray.Length)
+        {
+            Console.Write(",");
+        }
+        j++;
+    }
+    Console.Write("]");
+}
